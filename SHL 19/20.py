@@ -9,8 +9,8 @@ shl = shl_og[["home", "away", "home_goals", "away_goals"]]
 shl_mean = shl.mean()
 home_max = shl["home_goals"].max()
 away_max = shl["away_goals"].max()
-n_games = 52
-
+n_games = int(len(shl)/len(shl.home.unique()))
+print(n_games)
 # Create a new df with stats per team
 # Home stats
 shl_stats_home = shl.groupby(["home"]).sum()
