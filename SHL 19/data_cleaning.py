@@ -38,4 +38,3 @@ shl_stats["home_ga_avg"] = shl_stats.home_ga/(n_games/2)
 shl_stats["away_ga_avg"] = shl_stats.away_ga/(n_games/2)
 
 shl_stats.to_csv("shl_clean")
-
