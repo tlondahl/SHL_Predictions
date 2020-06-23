@@ -5,6 +5,7 @@ Work in progress
 
 ## Steps performed:
 - Data collection
+- Data cleaning
 
 ## Current status: 
-- Data cleaning
+- Building model
