@@ -23,12 +23,22 @@ df.drop(["Spectators"], inplace = True, axis = 1)
 shl_stats_home = df.groupby(["home"]).sum()
 shl_stats_home.reset_index(level = 0, inplace = True)
 shl_stats_home.rename(columns = {"home": "team", "away_goals": "home_ga"}, inplace = True)
+max_home = df.groupby(["home"]).max()
+max_home = max_home.filter(items=["home", "home_goals", "away_goals"])
+max_home.rename(columns= {"home_goals": "home_max", "away_goals": "home_ga_max"}, inplace = True)
+max_home.reset_index(level = 0, inplace = True)
+
 #Away stats
 shl_stats_away = df.groupby(["away"]).sum()
 shl_stats_away.reset_index(level = 0, inplace = True)
 shl_stats_away.rename(columns = {"home_goals": "away_ga"}, inplace = True)
+max_away = df.groupby(["away"]).max()
+max_away = max_away.filter(items=["away", "home_goals", "away_goals"])
+max_away.rename(columns= {"home_goals": "away_ga_max", "away_goals": "away_max"}, inplace = True)
+max_away.reset_index(level=0, inplace=True)
+
 #concat
-shl_stats = pd.concat([shl_stats_home, shl_stats_away], axis=1)
+shl_stats = pd.concat([shl_stats_home, shl_stats_away, max_home, max_away], axis=1)
 shl_stats.drop(["away"], inplace = True, axis=1)
 
 # Average for each stat
