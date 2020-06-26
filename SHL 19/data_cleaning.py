@@ -40,6 +40,8 @@ max_away.reset_index(level=0, inplace=True)
 #concat
 shl_stats = pd.concat([shl_stats_home, shl_stats_away, max_home, max_away], axis=1)
 shl_stats.drop(["away", "home"], inplace = True, axis=1)
+shl_stats = shl_stats.loc[:, ~shl_stats.columns.str.contains('^Unnamed')]
+
 
 # Average for each stat
 shl_stats["home_avg"] = shl_stats.home_goals/(n_games/2)
