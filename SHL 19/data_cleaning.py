@@ -15,12 +15,12 @@ df.away_goals = df.away_goals.str.strip().astype(int)
 # Calculate number of games played
 n_games = int(len(df)/len(df.home.unique()))
 
-# Remove irrelevant columns
-df.drop(["Spectators"], inplace = True, axis = 1)
+# Create new dataframe with only the relevant information
+games = df.iloc[:,7:]
 # Create a new df with stats per team
 
 # Home stats
-shl_stats_home = df.groupby(["home"]).sum()
+shl_stats_home = games.groupby(["home"]).sum()
 shl_stats_home.reset_index(level = 0, inplace = True)
 shl_stats_home.rename(columns = {"home": "team", "away_goals": "home_ga"}, inplace = True)
 max_home = df.groupby(["home"]).max()
@@ -39,7 +39,7 @@ max_away.reset_index(level=0, inplace=True)
 
 #concat
 shl_stats = pd.concat([shl_stats_home, shl_stats_away, max_home, max_away], axis=1)
-shl_stats.drop(["away", "home"], inplace = True, axis=1)
+shl_stats.drop(["away", "home", "Spectators"], inplace = True, axis=1)
 shl_stats = shl_stats.loc[:, ~shl_stats.columns.str.contains('^Unnamed')]
 
 
@@ -50,3 +50,4 @@ shl_stats["home_ga_avg"] = shl_stats.home_ga/(n_games/2)
 shl_stats["away_ga_avg"] = shl_stats.away_ga/(n_games/2)
 
 shl_stats.to_csv("shl_clean.csv")
+games.to_csv("games.csv")
