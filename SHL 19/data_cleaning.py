@@ -44,10 +44,10 @@ shl_stats = shl_stats.loc[:, ~shl_stats.columns.str.contains('^Unnamed')]
 
 
 # Average for each stat
-shl_stats["home_avg"] = shl_stats.home_goals/(n_games/2)
-shl_stats["away_avg"] = shl_stats.away_goals/(n_games/2)
-shl_stats["home_ga_avg"] = shl_stats.home_ga/(n_games/2)
-shl_stats["away_ga_avg"] = shl_stats.away_ga/(n_games/2)
+shl_stats["home_avg"] = shl_stats.home_goals/(n_games)
+shl_stats["away_avg"] = shl_stats.away_goals/(n_games)
+shl_stats["home_ga_avg"] = shl_stats.home_ga/(n_games)
+shl_stats["away_ga_avg"] = shl_stats.away_ga/(n_games)
 
 shl_stats.to_csv("shl_clean.csv")
 games.to_csv("games.csv")
