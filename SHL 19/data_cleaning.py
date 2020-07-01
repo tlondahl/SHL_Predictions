@@ -9,6 +9,8 @@ df.away = df.away.str.strip()
 
 # Separate home and away goals from result
 df[["home_goals", "away_goals"]] = df.Result.str.split("-", expand = True)
+df.rename(columns= {"Unnamed: 4": "result2"}, inplace = True)
+df["tie?"] = df.result2.apply(lambda x: "y" if len(x) >15 else "n")
 df.home_goals = df.home_goals.str.strip().astype(int)
 df.away_goals = df.away_goals.str.strip().astype(int)
 
