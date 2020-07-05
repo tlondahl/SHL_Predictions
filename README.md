@@ -26,8 +26,8 @@ The data was collected from https://stats.swehockey.se/ScheduleAndResults/Schedu
 - I will also try to incorporate how a team has performed lately. For instance, the results of the last 10 games will be valued higher.
 
 ## Testing:
-- When simulating the last round my model predicted the correct results in 5/7 games (71,42%)
-- I have test the model above and simulated a season and checked the results from my model against the actual results. An initial test of one simulation showed that my model predicted the correct result in 52% of the games
+- When simulating the last round my model predicted the correct results in 5/7 games **_(71,42%)_**
+- I have test the model above and simulated a season and checked the results from my model against the actual results. An initial test of one simulation showed that my model predicted the correct result in **_51,92%_** of the games
 ### To do:
 - Do a larger number of simulations
 - Calculate the standings of each simulation
