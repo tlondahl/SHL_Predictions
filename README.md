@@ -25,7 +25,7 @@ The data was collected from https://stats.swehockey.se/ScheduleAndResults/Schedu
 - Later I plan to test develop the model further by using team vs. team specific data, i.e. how team A have historically performed against Team B etc.
 - I will also try to incorporate how a team has performed lately. For instance, the results of the last 10 games will be valued higher.
 
-## Testing a
+## Testing:
 - When simulating the last round my model predicted the correct results in 5/7 games (71,42%)
 - I have test the model above and simulated a season and checked the results from my model against the actual results. An initial test of one simulation showed that my model predicted the correct result in 52% of the games
 ### To do:
