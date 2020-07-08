@@ -1,0 +1,358 @@
+,home,away,home_goals,away_goals,tie?
+0,Frölunda HC,Brynäs IF,2,5,n
+1,Skellefteå AIK,IK Oskarshamn,5,4,y
+2,Leksands IF,IF Malmö Redhawks,5,2,n
+3,Djurgårdens IF,Linköping HC,4,2,n
+4,Färjestad BK,Örebro HK,4,6,n
+5,Luleå HF,Växjö Lakers HC,3,1,n
+6,Rögle BK,HV 71,4,0,n
+7,HV 71,Frölunda HC,3,2,n
+8,Linköping HC,Brynäs IF,4,3,y
+9,IF Malmö Redhawks,Rögle BK,3,4,n
+10,IK Oskarshamn,Leksands IF,4,1,n
+11,Örebro HK,Luleå HF,2,1,n
+12,Skellefteå AIK,Färjestad BK,3,1,n
+13,Växjö Lakers HC,Djurgårdens IF,3,5,n
+14,Djurgårdens IF,Örebro HK,4,2,n
+15,Färjestad BK,Växjö Lakers HC,4,2,n
+16,Frölunda HC,Linköping HC,4,0,n
+17,Luleå HF,HV 71,3,2,y
+18,Rögle BK,IK Oskarshamn,0,1,n
+19,Leksands IF,Skellefteå AIK,3,2,n
+20,Brynäs IF,Färjestad BK,1,2,n
+21,HV 71,Leksands IF,2,1,y
+22,Linköping HC,Rögle BK,2,3,n
+23,IF Malmö Redhawks,Luleå HF,4,1,n
+24,IK Oskarshamn,Djurgårdens IF,3,2,n
+25,Örebro HK,Frölunda HC,3,4,n
+26,Växjö Lakers HC,Skellefteå AIK,1,4,n
+27,Leksands IF,Brynäs IF,5,1,n
+28,Djurgårdens IF,HV 71,2,1,y
+29,Färjestad BK,IF Malmö Redhawks,4,3,y
+30,Luleå HF,Linköping HC,4,1,n
+31,Örebro HK,Rögle BK,2,3,y
+32,Skellefteå AIK,Frölunda HC,1,6,n
+33,Växjö Lakers HC,IK Oskarshamn,3,2,n
+34,IF Malmö Redhawks,Örebro HK,4,1,n
+35,IK Oskarshamn,Luleå HF,2,4,n
+36,Rögle BK,Leksands IF,5,3,n
+37,Frölunda HC,Färjestad BK,5,2,n
+38,HV 71,Skellefteå AIK,1,3,n
+39,Linköping HC,Växjö Lakers HC,3,2,n
+40,Brynäs IF,Djurgårdens IF,4,3,n
+41,HV 71,Linköping HC,5,0,n
+42,Djurgårdens IF,Färjestad BK,5,6,y
+43,IK Oskarshamn,HV 71,2,3,y
+44,Örebro HK,Brynäs IF,6,1,n
+45,Rögle BK,Luleå HF,3,2,y
+46,Skellefteå AIK,Linköping HC,3,1,n
+47,Leksands IF,Frölunda HC,2,4,n
+48,Växjö Lakers HC,IF Malmö Redhawks,1,4,n
+49,Brynäs IF,HV 71,1,4,n
+50,Färjestad BK,IK Oskarshamn,12,0,n
+51,Linköping HC,IF Malmö Redhawks,1,2,y
+52,Leksands IF,Växjö Lakers HC,1,3,n
+53,Frölunda HC,Rögle BK,1,2,n
+54,Luleå HF,Djurgårdens IF,1,3,n
+55,Örebro HK,Skellefteå AIK,5,1,n
+56,Färjestad BK,Leksands IF,6,4,n
+57,IF Malmö Redhawks,Skellefteå AIK,0,4,n
+58,IK Oskarshamn,Frölunda HC,1,3,n
+59,Örebro HK,Växjö Lakers HC,4,1,n
+60,Rögle BK,Djurgårdens IF,2,1,y
+61,Luleå HF,Brynäs IF,4,0,n
+62,Djurgårdens IF,IF Malmö Redhawks,4,0,n
+63,Örebro HK,IK Oskarshamn,3,2,n
+64,Växjö Lakers HC,Rögle BK,1,3,n
+65,Frölunda HC,Luleå HF,4,1,n
+66,HV 71,Färjestad BK,3,4,n
+67,Skellefteå AIK,Brynäs IF,4,1,n
+68,Leksands IF,Linköping HC,2,5,n
+69,Brynäs IF,IK Oskarshamn,4,1,n
+70,Djurgårdens IF,Skellefteå AIK,1,3,n
+71,Frölunda HC,Växjö Lakers HC,6,5,y
+72,Linköping HC,Örebro HK,2,5,n
+73,Luleå HF,Leksands IF,4,3,n
+74,IF Malmö Redhawks,HV 71,3,4,y
+75,Färjestad BK,Rögle BK,5,3,n
+76,Färjestad BK,Luleå HF,2,3,n
+77,Frölunda HC,IF Malmö Redhawks,4,1,n
+78,Rögle BK,Skellefteå AIK,3,0,n
+79,Leksands IF,Djurgårdens IF,0,4,n
+80,IK Oskarshamn,Linköping HC,3,2,n
+81,Örebro HK,HV 71,1,3,n
+82,Växjö Lakers HC,Brynäs IF,4,1,n
+83,Skellefteå AIK,Luleå HF,2,3,n
+84,IF Malmö Redhawks,IK Oskarshamn,3,1,n
+85,Brynäs IF,Rögle BK,2,1,y
+86,Djurgårdens IF,Frölunda HC,2,3,y
+87,HV 71,Växjö Lakers HC,4,1,n
+88,Linköping HC,Färjestad BK,3,4,y
+89,Leksands IF,Örebro HK,3,5,n
+90,Brynäs IF,Leksands IF,3,2,y
+91,Djurgårdens IF,IK Oskarshamn,3,2,y
+92,Frölunda HC,Skellefteå AIK,5,1,n
+93,Färjestad BK,HV 71,3,2,n
+94,Luleå HF,IF Malmö Redhawks,3,0,n
+95,Rögle BK,Örebro HK,2,3,n
+96,Växjö Lakers HC,Linköping HC,6,2,n
+97,Brynäs IF,IF Malmö Redhawks,2,5,n
+98,Djurgårdens IF,Rögle BK,1,5,n
+99,Växjö Lakers HC,Leksands IF,2,4,n
+100,Linköping HC,HV 71,5,3,n
+101,Luleå HF,Rögle BK,4,1,n
+102,IF Malmö Redhawks,Frölunda HC,3,2,n
+103,IK Oskarshamn,Brynäs IF,3,2,y
+104,Örebro HK,Färjestad BK,5,2,n
+105,Skellefteå AIK,Djurgårdens IF,4,0,n
+106,Brynäs IF,Frölunda HC,3,1,n
+107,HV 71,IK Oskarshamn,7,1,n
+108,IF Malmö Redhawks,Leksands IF,1,4,n
+109,Rögle BK,Linköping HC,2,3,y
+110,Skellefteå AIK,Örebro HK,1,2,n
+111,Färjestad BK,Djurgårdens IF,4,1,n
+112,Växjö Lakers HC,Luleå HF,3,1,n
+113,Djurgårdens IF,Luleå HF,1,3,n
+114,Färjestad BK,Brynäs IF,2,1,n
+115,Frölunda HC,Örebro HK,4,1,n
+116,HV 71,Rögle BK,5,0,n
+117,Linköping HC,Leksands IF,4,1,n
+118,Skellefteå AIK,Växjö Lakers HC,1,4,n
+119,IF Malmö Redhawks,IK Oskarshamn,4,1,n
+120,Linköping HC,Djurgårdens IF,4,2,n
+121,Luleå HF,IK Oskarshamn,3,0,n
+122,Leksands IF,HV 71,0,4,n
+123,Växjö Lakers HC,Färjestad BK,3,2,y
+124,Brynäs IF,Skellefteå AIK,6,4,n
+125,Örebro HK,IF Malmö Redhawks,3,2,n
+126,Rögle BK,Frölunda HC,2,1,y
+127,Rögle BK,Färjestad BK,3,4,n
+128,Frölunda HC,Leksands IF,7,1,n
+129,HV 71,Djurgårdens IF,4,3,y
+130,Luleå HF,Brynäs IF,2,1,y
+131,IF Malmö Redhawks,Växjö Lakers HC,5,3,n
+132,IK Oskarshamn,Skellefteå AIK,2,5,n
+133,Örebro HK,Linköping HC,2,1,n
+134,Linköping HC,Frölunda HC,1,4,n
+135,IF Malmö Redhawks,Brynäs IF,0,2,n
+136,IK Oskarshamn,Färjestad BK,3,2,n
+137,Djurgårdens IF,Växjö Lakers HC,3,2,n
+138,Skellefteå AIK,Rögle BK,5,2,n
+139,Leksands IF,Luleå HF,0,5,n
+140,HV 71,Örebro HK,1,4,n
+141,Brynäs IF,Linköping HC,3,1,n
+142,Djurgårdens IF,Leksands IF,2,0,n
+143,Färjestad BK,Skellefteå AIK,4,2,n
+144,Frölunda HC,IK Oskarshamn,4,1,n
+145,Luleå HF,Örebro HK,4,1,n
+146,Rögle BK,IF Malmö Redhawks,4,3,y
+147,Växjö Lakers HC,HV 71,2,4,n
+148,IK Oskarshamn,Växjö Lakers HC,1,2,n
+149,Skellefteå AIK,IF Malmö Redhawks,4,3,n
+150,Leksands IF,Rögle BK,3,2,n
+151,Färjestad BK,Frölunda HC,4,1,n
+152,HV 71,Brynäs IF,3,2,n
+153,Linköping HC,Luleå HF,1,3,n
+154,Örebro HK,Djurgårdens IF,2,5,n
+155,Frölunda HC,Djurgårdens IF,2,1,n
+156,HV 71,Luleå HF,0,4,n
+157,Linköping HC,Skellefteå AIK,5,3,n
+158,IF Malmö Redhawks,Färjestad BK,3,4,n
+159,Rögle BK,Brynäs IF,4,2,n
+160,Leksands IF,IK Oskarshamn,4,1,n
+161,Växjö Lakers HC,Örebro HK,2,0,n
+162,Frölunda HC,HV 71,2,4,n
+163,IK Oskarshamn,Örebro HK,0,2,n
+164,Skellefteå AIK,Leksands IF,3,2,n
+165,Brynäs IF,Växjö Lakers HC,4,3,y
+166,Luleå HF,Färjestad BK,3,4,n
+167,IF Malmö Redhawks,Linköping HC,0,1,y
+168,Djurgårdens IF,Brynäs IF,6,0,n
+169,HV 71,IF Malmö Redhawks,1,4,n
+170,Luleå HF,Skellefteå AIK,2,3,y
+171,IK Oskarshamn,Rögle BK,1,2,n
+172,Örebro HK,Leksands IF,4,2,n
+173,Växjö Lakers HC,Frölunda HC,4,2,n
+174,Brynäs IF,Örebro HK,2,1,n
+175,Frölunda HC,Luleå HF,1,0,n
+176,Linköping HC,IK Oskarshamn,2,3,n
+177,IF Malmö Redhawks,Djurgårdens IF,4,0,n
+178,Rögle BK,Växjö Lakers HC,1,2,n
+179,Skellefteå AIK,HV 71,0,3,n
+180,Leksands IF,Färjestad BK,3,4,n
+181,IF Malmö Redhawks,HV 71,1,0,n
+182,Linköping HC,IF Malmö Redhawks,2,3,y
+183,Rögle BK,Färjestad BK,1,0,y
+184,HV 71,Leksands IF,3,2,y
+185,Brynäs IF,IK Oskarshamn,3,4,y
+186,Skellefteå AIK,Örebro HK,7,0,n
+187,Växjö Lakers HC,Djurgårdens IF,5,0,n
+188,Luleå HF,Frölunda HC,3,2,n
+189,Djurgårdens IF,Skellefteå AIK,3,1,n
+190,Färjestad BK,Luleå HF,2,3,n
+191,Frölunda HC,Växjö Lakers HC,4,0,n
+192,IF Malmö Redhawks,Rögle BK,1,4,n
+193,Örebro HK,HV 71,2,4,n
+194,IK Oskarshamn,Linköping HC,3,2,y
+195,Leksands IF,Brynäs IF,4,2,n
+196,HV 71,Frölunda HC,1,2,n
+197,Luleå HF,Leksands IF,2,0,n
+198,Brynäs IF,IF Malmö Redhawks,2,3,n
+199,Linköping HC,Örebro HK,1,2,n
+200,Rögle BK,Djurgårdens IF,3,1,n
+201,Skellefteå AIK,Färjestad BK,5,1,n
+202,Växjö Lakers HC,IK Oskarshamn,3,1,n
+203,Färjestad BK,Linköping HC,3,1,n
+204,Frölunda HC,Rögle BK,1,2,n
+205,Luleå HF,Linköping HC,3,2,y
+206,Växjö Lakers HC,Brynäs IF,3,1,n
+207,IF Malmö Redhawks,Örebro HK,2,3,y
+208,IK Oskarshamn,Djurgårdens IF,2,4,n
+209,Leksands IF,Skellefteå AIK,0,3,n
+210,Brynäs IF,Rögle BK,5,2,n
+211,Djurgårdens IF,HV 71,5,3,n
+212,Färjestad BK,IF Malmö Redhawks,5,1,n
+213,IK Oskarshamn,Luleå HF,4,2,n
+214,Örebro HK,Växjö Lakers HC,2,1,n
+215,Skellefteå AIK,Frölunda HC,4,2,n
+216,Leksands IF,Linköping HC,3,2,y
+217,Färjestad BK,IK Oskarshamn,5,1,n
+218,HV 71,Skellefteå AIK,2,3,y
+219,Linköping HC,Brynäs IF,2,3,y
+220,Rögle BK,Leksands IF,2,3,y
+221,Luleå HF,Djurgårdens IF,3,2,y
+222,Örebro HK,Frölunda HC,5,3,n
+223,Växjö Lakers HC,IF Malmö Redhawks,0,1,n
+224,Brynäs IF,Färjestad BK,4,3,y
+225,Djurgårdens IF,Linköping HC,3,2,n
+226,IK Oskarshamn,Frölunda HC,5,1,n
+227,Rögle BK,Luleå HF,4,7,n
+228,Leksands IF,Örebro HK,0,1,n
+229,Växjö Lakers HC,Skellefteå AIK,1,2,n
+230,Djurgårdens IF,IF Malmö Redhawks,2,0,n
+231,Frölunda HC,Färjestad BK,3,2,n
+232,Linköping HC,Växjö Lakers HC,2,3,y
+233,Luleå HF,HV 71,6,3,n
+234,Örebro HK,Rögle BK,2,5,n
+235,Skellefteå AIK,Brynäs IF,1,2,n
+236,IK Oskarshamn,Leksands IF,2,3,n
+237,HV 71,Linköping HC,1,4,n
+238,Rögle BK,Skellefteå AIK,4,0,n
+239,IK Oskarshamn,IF Malmö Redhawks,1,5,n
+240,Färjestad BK,Växjö Lakers HC,3,4,y
+241,Frölunda HC,Brynäs IF,8,4,n
+242,Örebro HK,Luleå HF,3,2,n
+243,Leksands IF,Djurgårdens IF,2,4,n
+244,Linköping HC,Rögle BK,5,1,n
+245,Frölunda HC,IF Malmö Redhawks,4,3,n
+246,Linköping HC,Färjestad BK,1,0,n
+247,Rögle BK,HV 71,1,4,n
+248,Brynäs IF,Luleå HF,1,3,n
+249,Djurgårdens IF,Örebro HK,4,1,n
+250,Skellefteå AIK,IK Oskarshamn,3,5,n
+251,Växjö Lakers HC,Leksands IF,5,1,n
+252,HV 71,Färjestad BK,8,4,n
+253,IF Malmö Redhawks,Brynäs IF,5,0,n
+254,Djurgårdens IF,Frölunda HC,2,1,n
+255,Färjestad BK,Leksands IF,4,3,n
+256,Luleå HF,Växjö Lakers HC,5,1,n
+257,IF Malmö Redhawks,Skellefteå AIK,4,1,n
+258,IK Oskarshamn,HV 71,1,3,n
+259,Örebro HK,Brynäs IF,3,6,n
+260,IF Malmö Redhawks,Luleå HF,1,3,n
+261,Rögle BK,IK Oskarshamn,5,3,n
+262,Skellefteå AIK,Linköping HC,3,2,n
+263,Leksands IF,Frölunda HC,2,4,n
+264,Brynäs IF,Djurgårdens IF,0,1,n
+265,Färjestad BK,Örebro HK,3,1,n
+266,HV 71,Växjö Lakers HC,5,0,n
+267,Brynäs IF,HV 71,4,3,y
+268,Djurgårdens IF,Färjestad BK,5,4,y
+269,Frölunda HC,Linköping HC,1,3,n
+270,Örebro HK,IK Oskarshamn,4,2,n
+271,Skellefteå AIK,Luleå HF,4,1,n
+272,Leksands IF,IF Malmö Redhawks,2,3,n
+273,Växjö Lakers HC,Rögle BK,0,4,n
+274,Brynäs IF,Luleå HF,5,1,n
+275,Djurgårdens IF,Växjö Lakers HC,4,1,n
+276,Frölunda HC,Örebro HK,5,3,n
+277,HV 71,Rögle BK,3,5,n
+278,Linköping HC,Leksands IF,2,1,n
+279,IK Oskarshamn,IF Malmö Redhawks,3,4,y
+280,Färjestad BK,Skellefteå AIK,0,3,n
+281,IK Oskarshamn,Växjö Lakers HC,3,5,n
+282,Rögle BK,Frölunda HC,4,3,n
+283,Leksands IF,Luleå HF,0,3,n
+284,Linköping HC,HV 71,2,4,n
+285,IF Malmö Redhawks,Djurgårdens IF,5,1,n
+286,Örebro HK,Skellefteå AIK,2,4,n
+287,Färjestad BK,Brynäs IF,5,2,n
+288,Brynäs IF,Linköping HC,2,3,y
+289,Frölunda HC,IK Oskarshamn,5,1,n
+290,Luleå HF,IF Malmö Redhawks,4,3,n
+291,Örebro HK,Färjestad BK,3,4,y
+292,Skellefteå AIK,Djurgårdens IF,3,0,n
+293,Leksands IF,Rögle BK,2,5,n
+294,Växjö Lakers HC,HV 71,5,1,n
+295,Djurgårdens IF,Leksands IF,5,2,n
+296,Färjestad BK,Frölunda HC,5,2,n
+297,HV 71,Örebro HK,3,2,n
+298,Linköping HC,Luleå HF,3,2,y
+299,IK Oskarshamn,Skellefteå AIK,3,4,y
+300,Rögle BK,Växjö Lakers HC,5,1,n
+301,Brynäs IF,Frölunda HC,4,2,n
+302,HV 71,IF Malmö Redhawks,3,2,n
+303,Luleå HF,Färjestad BK,4,1,n
+304,Örebro HK,Djurgårdens IF,5,2,n
+305,Skellefteå AIK,Rögle BK,4,3,n
+306,Leksands IF,IK Oskarshamn,3,0,n
+307,Växjö Lakers HC,Linköping HC,2,1,n
+308,Djurgårdens IF,Brynäs IF,3,2,n
+309,Frölunda HC,Leksands IF,2,5,n
+310,IF Malmö Redhawks,Linköping HC,3,4,y
+311,IK Oskarshamn,Färjestad BK,3,4,y
+312,Rögle BK,Örebro HK,3,0,n
+313,Skellefteå AIK,HV 71,2,1,n
+314,Växjö Lakers HC,Luleå HF,1,3,n
+315,Brynäs IF,Skellefteå AIK,3,5,n
+316,Färjestad BK,Rögle BK,3,2,n
+317,HV 71,Djurgårdens IF,7,1,n
+318,Linköping HC,Frölunda HC,1,2,y
+319,Luleå HF,IK Oskarshamn,4,3,y
+320,Örebro HK,IF Malmö Redhawks,0,2,n
+321,Leksands IF,Växjö Lakers HC,4,1,n
+322,Luleå HF,Frölunda HC,4,1,n
+323,Djurgårdens IF,IK Oskarshamn,5,4,n
+324,IF Malmö Redhawks,Färjestad BK,3,1,n
+325,HV 71,Brynäs IF,5,6,y
+326,Rögle BK,Linköping HC,3,2,y
+327,Skellefteå AIK,Leksands IF,8,2,n
+328,Växjö Lakers HC,Örebro HK,4,1,n
+329,Brynäs IF,Växjö Lakers HC,0,1,n
+330,Färjestad BK,HV 71,1,2,n
+331,Frölunda HC,Skellefteå AIK,1,0,n
+332,Linköping HC,Djurgårdens IF,2,3,y
+333,Luleå HF,Rögle BK,3,0,n
+334,IF Malmö Redhawks,Leksands IF,3,2,y
+335,IK Oskarshamn,Örebro HK,1,2,y
+336,Djurgårdens IF,Luleå HF,3,2,y
+337,HV 71,IK Oskarshamn,5,3,n
+338,Örebro HK,Linköping HC,3,0,n
+339,Rögle BK,Brynäs IF,6,4,n
+340,Skellefteå AIK,IF Malmö Redhawks,3,0,n
+341,Leksands IF,Färjestad BK,1,2,y
+342,Växjö Lakers HC,Frölunda HC,3,2,n
+343,Brynäs IF,Leksands IF,5,4,y
+344,Frölunda HC,HV 71,3,4,y
+345,Linköping HC,Skellefteå AIK,4,3,n
+346,IF Malmö Redhawks,Växjö Lakers HC,5,4,n
+347,Färjestad BK,Djurgårdens IF,4,1,n
+348,Luleå HF,Örebro HK,3,2,y
+349,IK Oskarshamn,Rögle BK,1,2,n
+350,Djurgårdens IF,Rögle BK,3,2,n
+351,Färjestad BK,Linköping HC,2,4,n
+352,HV 71,Luleå HF,2,1,n
+353,IF Malmö Redhawks,Frölunda HC,0,3,n
+354,IK Oskarshamn,Brynäs IF,5,4,n
+355,Örebro HK,Leksands IF,4,0,n
+356,Skellefteå AIK,Växjö Lakers HC,2,3,y
