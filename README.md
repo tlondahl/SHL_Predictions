@@ -26,8 +26,10 @@ The data was collected from [here](https://stats.swehockey.se/ScheduleAndResults
 - I will also try to incorporate how a team has performed lately. For instance, the results of the last 10 games will be valued higher.
 
 ## Testing:
-- When simulating the last round my model predicted the correct results in 5/7 games **_(71,42%)_**
-- I have test the model above and simulated a season and checked the results from my model against the actual results. An initial test of one simulation showed that my model predicted the correct result in **_51,92%_** of the games
+in order to testthe model I excluded the last 7 games from the data set and the sats calculations and exported the same type of files as described above but called them ["shl_clean-7.csv"](https://github.com/tlondahl/SHL_Predictions/blob/master/SHL%2019/shl_clean-7.csv) (team stats) and ["games-7.csv"](https://github.com/tlondahl/SHL_Predictions/blob/master/SHL%2019/games-7.csv) (all the games and results)
+- When simulating the last round my model predicted the correct results in 5/7 games **_(71,42%)_**.
+- The code for this simulation can be found [here](https://github.com/tlondahl/SHL_Predictions/blob/master/SHL%2019/last_round_sim.py)
+
 ### To do:
-- Do a larger number of simulations
 - Calculate the standings of each simulation
+- Do a Monte Carlo simulation of a season
