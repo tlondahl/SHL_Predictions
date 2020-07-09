@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-import random
+import random, statistics
 from scipy.stats import poisson
 
 stats = pd.read_csv('shl_clean-7.csv')
@@ -39,23 +39,32 @@ test = test.assign(home_win=0, away_win=0, tie=0, sim_winner="")
 
 test = test.reset_index(drop=True)
 
-for index, row in test.iterrows():
-    h = row["home"]
-    a = row['away']
-    winner = win(stats, h, a)
-    if winner == h:
-        test.at[index,'home_win'] += 1
-        test.at[index,'sim_winner'] = h
-    elif winner == a:
-        test.at[index,'away_win'] += 1
-        test.at[index,'sim_winner'] = a
-    else:
-        test.at[index,'tie'] += 1
-        test.at[index,'sim_winner'] = "tie"
+def sim_games(df, num_sim):
+    result = []
+    sim_count = 0
+    while sim_count < num_sim:
+        for index, row in df.iterrows():
+            h = row["home"]
+            a = row['away']
+            winner = win(stats, h, a)
+            if winner == h:
+                df.at[index,'home_win'] += 1
+                df.at[index,'sim_winner'] = h
+            elif winner == a:
+                df.at[index,'away_win'] += 1
+                df.at[index,'sim_winner'] = a
+            else:
+                df.at[index,'tie'] += 1
+                df.at[index,'sim_winner'] = "tie"
+            df["correct"] = df.apply(lambda x: 1 if x["winner"] == x["sim_winner"] else 0, axis = 1)
+            accuracy = sum(df.correct)/len(df)
+            result.append(accuracy)
+            sim_count += 1
+    return statistics.mean(result)
 
-test["correct"] = test.apply(lambda x: 1 if x["winner"] == x["sim_winner"] else 0, axis = 1)
+print(sim_games(test, 1000))
 
-print(test)
-print("The model 3 predicted the right results in {} out of {} games ({:.2%})".format(sum(test.correct), len(test), sum(test.correct)/len(test)))
+#print(test)
+#print("The model predicted the right results in {} out of {} games ({:.2%})".format(sum(test.correct), len(test), sum(test.correct)/len(test)))
 
 
