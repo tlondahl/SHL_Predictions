@@ -35,7 +35,7 @@ in order to testthe model I excluded the last 7 games from the data set and the 
 - Do a Monte Carlo simulation of a season
 
 ## Conclusion (so far)
-There are three possible results to a hockey game, home team win, away team win or a tie. Having an accuracy of 39% is at least better than chosing a result by random (1/3, 33,33%). However, I would like to increase the accuracy. Hence, I will continue to devolp the model and try adding and/or removing some variables.
+There are three possible results to a hockey game, home team win, away team win or a tie. Having an accuracy of **_39%_** is at least better than chosing a result by random **_(1/3, 33,33%)_**. However, I would like to increase the accuracy. Hence, I will continue to devolp the model and try adding and/or removing some variables.
 
 
 Later a would also like to build a more dynamic model to simulate an entire season where the results of each game have an effect on the probabity of the next game. 
