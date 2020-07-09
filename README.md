@@ -27,7 +27,7 @@ The data was collected from [here](https://stats.swehockey.se/ScheduleAndResults
 
 ## Testing:
 in order to testthe model I excluded the last 7 games from the data set and the sats calculations and exported the same type of files as described above but called them ["shl_clean-7.csv"](https://github.com/tlondahl/SHL_Predictions/blob/master/SHL%2019/shl_clean-7.csv) (team stats) and ["games-7.csv"](https://github.com/tlondahl/SHL_Predictions/blob/master/SHL%2019/games-7.csv) (all the games and results)
-- When simulating the last round 1000 times my model had a mean accuracy per simulation of **_(38,56%)_**.
+- When simulating the last round 1000 times my model had a mean accuracy per simulation of **_(43.19%)_**.
 - The code for this simulation can be found [here](https://github.com/tlondahl/SHL_Predictions/blob/master/SHL%2019/last_round_sim.py)
 
 ### To do:
@@ -35,7 +35,7 @@ in order to testthe model I excluded the last 7 games from the data set and the 
 - Do a Monte Carlo simulation of a season
 
 ## Conclusion (so far)
-There are three possible results to a hockey game, home team win, away team win or a tie. Having an accuracy of **_39%_** is at least better than chosing a result by random **_(1/3, 33,33%)_**. However, I would like to increase the accuracy. Hence, I will continue to devolp the model and try adding and/or removing some variables.
+There are three possible results to a hockey game, home team win, away team win or a tie. Having an accuracy of **_43.19%_** is at least better than chosing a result by random **_(1/3, 33,33%)_**. However, I would like to increase the accuracy. Hence, I will continue to devolp the model and try adding and/or removing some variables.
 
 
 Later a would also like to build a more dynamic model to simulate an entire season where the results of each game have an effect on the probabity of the next game. 
