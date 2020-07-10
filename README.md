@@ -8,12 +8,12 @@
 **Packages:** Pandas, Numpy, Matplotlib, Scipy, Seaborn
 
 
-## Data Cleaning
+## Data Cleaning/Feature Engineering
 The data was collected from [here](https://stats.swehockey.se/ScheduleAndResults/Schedule/10371). To get going quickly i copied all the games and pasted them in an excel-sheet.
 
 - Created new columns for home and away goals
 - Created a column to show if a game ended in a tie after full time or not
-- Created a a dataset with stats for each team based on the game data (total number of goals home/away, max/min goals home/away, avg. number of goals /home/away, avg. number of goals against home/away)
+- Created a a dataset with stats for each team based on the individual game data. For instance, total number of goals home/away, max/min goals home/away, avg. number of goals /home/away, avg. number of goals against home/away.
 - Exported the data to two seperate csv files, ["shl_clean.csv"](https://github.com/tlondahl/SHL_Predictions/blob/master/SHL%2019/shl_clean.csv) (team stats) and ["games.csv"](https://github.com/tlondahl/SHL_Predictions/blob/master/SHL%2019/games.csv) (all the games and results)
 
 ## Model building:
